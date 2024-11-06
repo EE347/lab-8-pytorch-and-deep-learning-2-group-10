@@ -42,6 +42,16 @@ def plot_confusion_matrix(cm, epoch, save_path):
 
  
 
+    # Add numbers to each cell in the confusion matrix
+
+    for i in range(cm.shape[0]):
+
+        for j in range(cm.shape[1]):
+
+            plt.text(j, i, format(cm[i, j], 'd'), ha="center", va="center", color="white" if cm[i, j] > cm.max() / 2 else "black")
+
+ 
+
     # Labels on the plot
 
     plt.xlabel('Predicted Label')
