@@ -28,7 +28,7 @@ face_cascade = cv2.CascadeClassifier(cv2.data.haarcascades + 'haarcascade_fronta
 
  
 
-# Helper function to generate unique filenames
+# Helper function to generate unique filenameslllll
 
 def generate_filename(prefix, extension, folder, label):
 
