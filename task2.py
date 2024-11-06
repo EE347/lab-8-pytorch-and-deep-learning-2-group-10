@@ -26,7 +26,7 @@ if __name__ == '__main__':
 
     # Create the model and optimizer
     model = mobilenet_v3_small(weights=None, num_classes=2).to(device)
-    optimizer = optim.Adam(model.parameters(), lr=0.0001)
+    optimizer = optim.Adam(model.parameters(), lr=0.001)
     criterion = torch.nn.CrossEntropyLoss()
 
     # Saving parameters

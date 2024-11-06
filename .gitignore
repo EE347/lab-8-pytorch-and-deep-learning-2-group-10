@@ -8,3 +8,7 @@ best_model_CrossEntropyLoss.pth
 best_model_NLLLoss.pth
 task5_loss_plot.png
 task6_loss_plot.png
+task2_loss_plot.png
+task7_loss_plot.png
+task2_loss_plot.png
+live_confusion_matrix.png
