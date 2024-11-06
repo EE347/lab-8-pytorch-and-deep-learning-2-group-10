@@ -7,3 +7,4 @@ task4_loss_plot.png
 best_model_CrossEntropyLoss.pth
 best_model_NLLLoss.pth
 task5_loss_plot.png
+task6_loss_plot.png

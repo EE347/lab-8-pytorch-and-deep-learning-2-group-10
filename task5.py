@@ -48,7 +48,7 @@ if __name__ == '__main__':
 
     trainloader = DataLoader(trainset, batch_size=4, shuffle=True)
 
-    testloader = DataLoader(testset, batch_size=1, shuffle=False)
+    testloader = DataLoader(testset, batch_size=1, shuffle=True)
 
  
 
